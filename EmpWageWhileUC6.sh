@@ -19,7 +19,6 @@ empCheck=$((RANDOM%3));
          *)
                   empHrs=0;;
     esac
-
 totalEmpHr=$(($totalEmpHr+$empHrs))
 done
 totalSalary=$(($totalEmpHr+$EMP_RATE_PER_HRS))
