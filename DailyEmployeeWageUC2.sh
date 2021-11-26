@@ -6,8 +6,7 @@ then
      empHrs=8;
      salary=$(( $empHrs * $empRatePerHr ));
 else
-     salary=0;
-     
+     salary=0;   
 fi
 echo $salary
 
