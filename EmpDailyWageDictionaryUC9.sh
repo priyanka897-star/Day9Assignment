@@ -23,10 +23,6 @@ function getWorkingHours(){
     echo $workHours
 }
 
-
-
-
-
 while [[ $totalEmpHrs -lt $MAX_HRS_IN_MONTH && $totalworkingday -lt $NUM_WORKING_DAYS ]]
 do
    ((totalworkingday++))
