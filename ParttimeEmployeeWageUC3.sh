@@ -13,7 +13,5 @@ then
       empRatePerHr=200;
      empHrs=4;
      salary=$(( $empHrs * $empRatePerHr ));
-
-
 fi
 echo $salary
